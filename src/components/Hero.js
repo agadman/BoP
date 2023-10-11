@@ -8,7 +8,7 @@ const Hero = () => {
      <div className="w3-display-middle">
        <MiddleContent>
          <Logo>
-            <p>MY WEBSITE LOGO</p>    
+            <p>WEBSITE NAME</p>    
          </Logo>
        </MiddleContent>
      </div>
@@ -32,7 +32,6 @@ const HomeContainer = styled.div`
 
 const MiddleContent = styled.div`
  background-color: #333;
-
 `;
 
 const Logo = styled.div`

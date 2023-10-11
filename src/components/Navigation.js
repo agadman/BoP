@@ -5,10 +5,10 @@ const Navigation = () => {
  return (
    <NavbarContainer>
      <NavLinks>
-       <a href="#home">HOME</a>
-       <a href="#about">ABOUT</a>
-       <a href="#portfolio">PORTFOLIO</a>
-       <a href="#contact">CONTACT</a>
+       <a href="#home">HEM</a>
+       <a href="#about">OM OSS</a>
+       <a href="#portfolio">PROJEKT</a>
+       <a href="#contact">KONTAKT</a>
      </NavLinks>
      <MobileNav>
        <a href="#about">ABOUT</a>
@@ -27,6 +27,9 @@ const NavbarContainer = styled.div`
  padding: 10px;
  display: flex;
  justify-content: space-between;
+ position: fixed;
+  top: 0;
+  width: 100%;
 `;
 
 const NavLinks = styled.div`
