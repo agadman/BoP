@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styled from 'styled-components';
 
 const Footer = () => {
@@ -14,9 +14,8 @@ const Footer = () => {
        </a>
     </BackToTopWrapper>
      <SocialIcons>
-       <i className="fa fa-facebook-official w3-hover-opacity"></i>
-       <i className="fa fa-instagram w3-hover-opacity"></i>
-       <i className="fa fa-linkedin w3-hover-opacity"></i>
+       <FaInstagram className="icons" />
+       <FaLinkedin className="icons" />
      </SocialIcons>
    </FooterContainer>
  );
@@ -44,11 +43,14 @@ const ArrowIconWrapper = styled.div`
 `
 
 const SocialIcons = styled.div`
- font-size: 24px;
+ font-size: 30px;
  margin-top: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
 
- i {
-   margin: 0 1rem;
+ .icons {
    cursor: pointer;
    &:hover {
      opacity: 0.7;

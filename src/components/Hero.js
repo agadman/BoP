@@ -8,7 +8,7 @@ const Hero = () => {
      <div className="w3-display-middle">
        <MiddleContent>
          <Logo>
-            <p>WEBSITE NAME</p>    
+            <p>BERGELIN OCH PETTERSONS MÅLERI</p>    
          </Logo>
        </MiddleContent>
      </div>
