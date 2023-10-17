@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ContactComponent = () => {
  return (
-   <ContactSection>
+   <ContactSection id="contact">
      <ParallaxImage className="bgimg-3" imageUrl={ContactImg} minHeight={400}>
        <ContactContainer>
          <ContactContent>
@@ -52,7 +52,7 @@ const ContactContainer = styled.div`
 const ContactContent = styled.div`
  text-align: center;
  background-color: #fff;
- padding: 3%;
+ padding: 3% 10%;
 `;
 
 const ContactHeader = styled.h3`
